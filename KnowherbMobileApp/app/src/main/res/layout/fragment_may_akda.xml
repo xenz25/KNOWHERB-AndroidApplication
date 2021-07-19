@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naglinangBackGround"
+    android:padding="10dp"
+    tools:context=".fragment.MayAkdaFragment">
+
+    <RelativeLayout
+        android:id="@+id/imagePlaceHolder"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_sakit_lunas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/book_author_500px_round_shad" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imagePlaceHolder"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arimo_bold"
+            android:gravity="center"
+            android:text="Herminia de Guzman-Ladion"
+            android:textColor="#566A4C"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:padding="10dp"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_regular"
+                    android:text="    Si Herminia de Guzman-Ladion, R.N., A.R.P.T., P.T.R.P., ay naglelektura tungkol sa likas na panlunas sa mga paaralan at iba’t ibang tagapakinig, mula sa pulutong na propesyonal hanggang sa mga samahang sibiko at pambayan. Nagtuturo siya ng kurso tungkol sa likas na panlunas sa The international Institute of Health, Philippines Union College, Silang, Cavite. Nakagamit na siya mg ilang halamang-gamot na binabanggit sa aklat na ito sa kanyang sambahayan at mga kaibigan."
+                    android:textColor="@color/naglinangTextColorDescription"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:elevation="10dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:contentDescription="Mga Halamang Kahangahangang Pampagaling"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/book_cover" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_regular"
+                    android:text="    Si Mrs. Ladion ang mag-akda sa aklat ng hydrotherapy na labis na ipinagbunyi, ang Tubig, ang Kahangahangang Pampagaling. Pinagsama niya ang ilang panlunas sa pamamagitan ng tubig at halamang-gamot sa aklat na yaon sa kasalukuyang gawaing ito."
+                    android:textColor="@color/naglinangTextColorDescription"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/arimo_regular"
+                    android:text="    Bukod sa pagsusulat at paglelektura tungkol sa likas na panlunas, isinasagawa ni Mrs. Ladion kung ano ang kanyang itinuturo bilang punong physical therapist at tagapangulo sa Physical Therapy Department sa Manila Sanitarium and Hospital. Siya rin ay guro sa klinika ng School of Nursing ng Philippine Union College."
+                    android:textColor="@color/naglinangTextColorDescription"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/arimo_regular"
+                    android:text="    Lisensiyado siya upang makapaggamot ng kapwa sa Pilipinas gayon din sa California at USA bilang isang nars at physical therapist. Natamo niya ang puspusang pagsasanay sa School of Physical Therapy sa Loma Linda University sa California kung saan tumanggap siya ng kaloob na iskolarship mula sa Johnson Foundation sa panahon ng taon ng kanyang pagtatapos."
+                    android:textColor="@color/naglinangTextColorDescription"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/arimo_regular"
+                    android:text="    Si Mrs. Ladion ay kumakatawan din sa Pilipinas sa iba’t-ibang pulong propesyonal sa Singapore at Australia."
+                    android:textColor="@color/naglinangTextColorDescription"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

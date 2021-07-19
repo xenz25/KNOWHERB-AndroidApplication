@@ -1,0 +1,18 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/secondaryLightColor">
+
+    <item>
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="30dp"
+            android:height="30dp"
+            android:autoMirrored="true"
+            android:viewportWidth="50"
+            android:viewportHeight="50">
+            <path
+                android:fillColor="@color/recycler_view_card_background_color1"
+                android:pathData="M21,4C11.0822,4 3,12.0822 3,22C3,31.9178 11.0822,40 21,40C24.6218,40 27.9923,38.9139 30.8203,37.0625L43.3789,49.6211L47.6211,45.3789L35.2246,32.9824C37.5815,29.9384 39,26.1347 39,22C39,12.0822 30.9178,4 21,4zM21,8C28.7562,8 35,14.2438 35,22C35,29.7562 28.7562,36 21,36C13.2438,36 7,29.7562 7,22C7,14.2438 13.2438,8 21,8z" />
+        </vector>
+    </item>
+
+</ripple>
+

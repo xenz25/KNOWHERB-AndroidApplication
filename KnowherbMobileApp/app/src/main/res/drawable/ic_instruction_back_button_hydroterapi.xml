@@ -1,0 +1,17 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/hydroterapi_secondaryTextColor">
+
+    <item>
+        <vector
+            android:width="28.581dp"
+            android:height="28.581dp"
+            android:autoMirrored="true"
+            android:viewportWidth="28.581"
+            android:viewportHeight="28.581">
+            <path
+                android:fillColor="@color/hydroterapi_secondaryColor"
+                android:pathData="M14.291,28.581A14.291,14.291 0,1 0,0 14.291,14.291 14.291,0 0,0 14.291,28.581ZM8.685,13.449 L15.83,6.3a1.191,1.191 0,0 1,1.684 1.684l-6.3,6.3 6.3,6.3a1.191,1.191 0,1 1,-1.684 1.684l-7.145,-7.145A1.19,1.19 0,0 1,8.685 13.449Z" />
+        </vector>
+    </item>
+
+</ripple>

@@ -1,0 +1,15 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/secondaryLightColor">
+    <item>
+        <vector
+            android:width="24.002dp"
+            android:height="22.569dp"
+            android:autoMirrored="true"
+            android:viewportWidth="24.002"
+            android:viewportHeight="22.569">
+            <path
+                android:fillColor="#9baf92"
+                android:pathData="M4.0544,3.9526 L3.5306,4.2108l-0.0334,0.5802C3.4837,5.1581 3.0356,13.7812 7,18.3046A6.7818,6.7818 60.0089,0 0,16.7613 18.1995a11.7764,11.7764 60.0089,0 1,0.9561 3.285l1.986,-0.2358c-0.6818,-5.7255 -6.4513,-12.7116 -11.6568,-14.1238L8.033,7.114c7.728,2.072 10.815,6.006 10.815,6.006l0.0236,-0.0185 0.5942,0.9701A4.2905,4.2905 60.0089,0 0,21.378 11.4075c0.7463,-3.3049 -1.0075,-7.2759 -6.6099,-8.6983A16.2119,16.2119 60.0089,0 0,4.0544 3.9526Z" />
+        </vector>
+    </item>
+</ripple>

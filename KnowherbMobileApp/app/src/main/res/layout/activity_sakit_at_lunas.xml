@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sakit_at_lunas_parent_layout"
+    tools:context=".activity.SakitAtLunasActivity">
+
+    <LinearLayout
+        android:id="@+id/sakit_at_lunas_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/sakit_at_lunas_top_panel"
+        android:elevation="15dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:elevation="5dp"
+            android:padding="20dp">
+
+            <FrameLayout
+                android:elevation="10dp"
+                android:id="@+id/btn_back_sakit_at_lunas"
+                android:layout_width="@dimen/back_button_width"
+                android:layout_height="@dimen/back_button_width"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_instruction_back_button"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toEndOf="@+id/btn_back_sakit_at_lunas"
+                android:fontFamily="@font/arimo_bold"
+                android:gravity="center"
+                android:paddingStart="0dp"
+                android:paddingEnd="@dimen/back_button_width"
+                android:text="SAKIT AT LUNAS"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/search_bar"
+            android:elevation="10dp">
+
+            <AutoCompleteTextView
+                android:completionThreshold="1"
+                android:id="@+id/edt_search_bar_sakit_at_lunas"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/search_clear_sakit_at_lunas"
+                android:background="@android:color/transparent"
+                android:focusable="true"
+                android:fontFamily="@font/arimo_regular"
+                android:hint="@string/search_hint_pangalan_ng_sakit"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:shadowColor="@color/recycler_view_card_background_color1"
+                android:textColor="@color/search_bar_text_color"
+                android:textCursorDrawable="@null"
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:id="@+id/search_clear_sakit_at_lunas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/recycler_view_card_background_color2"
+                android:background="@drawable/ic_baseline_close_24" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sakit_at_lunas_top_layout"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="10dp"
+            android:visibility="gone" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout_sakit_At_luans"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/tablayout_background"
+            app:tabIndicator="@drawable/tablayout_indicator"
+            app:tabIndicatorAnimationDuration="550"
+            app:tabIndicatorAnimationMode="elastic"
+            app:tabIndicatorColor="@color/recycler_view_card_background_color2"
+            app:tabIndicatorGravity="stretch"
+            app:tabMode="fixed"
+            app:tabTextColor="@color/app_name_know_color"
+            app:tabRippleColor="@android:color/transparent"
+            app:tabSelectedTextColor="@color/white" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_sakit_at_lunas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:overScrollMode="never" />
+
+
+    </LinearLayout>
+</RelativeLayout>

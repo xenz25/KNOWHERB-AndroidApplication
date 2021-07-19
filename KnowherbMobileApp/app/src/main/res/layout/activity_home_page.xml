@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.HomePageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/home_page_buttons_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/home_page_panel_top"
+        android:elevation="10dp"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:transitionName="logo_transition"
+                android:id="@+id/home_page_knowherb_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/ic_knowherb_logo" />
+
+            <LinearLayout
+                android:id="@+id/home_page_app_name_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:transitionName="@string/know_shared_transition_name"
+                    android:id="@+id/home_page_know_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_bold"
+                    android:text="@string/app_name_know"
+                    android:textColor="@color/app_name_know_color"
+                    android:textSize="@dimen/home_page_app_name_size" />
+
+                <TextView
+                    android:layout_marginTop="-20dp"
+                    android:transitionName="@string/herb_shared_transition_name"
+                    android:id="@+id/home_page_herb_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_bold"
+                    android:text="@string/app_name_herb"
+                    android:textColor="@color/app_name_herb_color"
+                    android:textSize="@dimen/home_page_app_name_size" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/home_page_book_author_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:src="@drawable/book_author_500px_round_shad"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/home_page_buttons_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="50dp">
+
+            <LinearLayout
+                android:id="@+id/button_home_page_sakit_at_lunas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/home_page_button_marginStart"
+                android:background="@drawable/home_page_button_riple"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="@dimen/home_page_button_inner_padding">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/sakit_at_lunas_prefix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo_bold"
+                        android:text="@string/sakit_at_lunas_prefix"
+                        android:textColor="@color/home_page_text_not_selected"
+                        android:textSize="@dimen/home_page_prefix_text_size" />
+
+                    <TextView
+                        android:id="@+id/sakit_at_lunas_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/home_page_prefix_to_body_padding"
+                        android:fontFamily="@font/arimo_regular"
+                        android:text="@string/sakit_at_lunas_body"
+                        android:textColor="@color/home_page_text_not_selected"
+                        android:textSize="@dimen/home_page_body_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/button_home_page_halamang_gamot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/home_page_button_marginStart"
+                android:background="@drawable/home_page_button_riple"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="@dimen/home_page_button_inner_padding">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/mga_halamang_gamot_prefix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo_bold"
+                        android:text="@string/mga_halamang_gamot_prefix"
+                        android:textColor="@color/home_page_text_not_selected"
+                        android:textSize="@dimen/home_page_prefix_text_size" />
+
+                    <TextView
+                        android:id="@+id/mga_halamang_gamot_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/home_page_prefix_to_body_padding"
+                        android:fontFamily="@font/arimo_regular"
+                        android:text="@string/mga_halamang_gamot_body"
+                        android:textColor="@color/home_page_text_not_selected"
+                        android:textSize="@dimen/home_page_body_text_size" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/button_home_page_paboritong_halaman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/home_page_button_marginStart"
+                android:background="@drawable/home_page_button_riple"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="@dimen/home_page_button_inner_padding">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/paboritong_halaman_prefix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo_bold"
+                        android:text="@string/paboritong_halaman_prefix"
+                        android:textColor="@color/home_page_text_not_selected"
+                        android:textSize="@dimen/home_page_prefix_text_size" />
+
+                    <TextView
+                        android:id="@+id/paboritong_halaman_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/home_page_prefix_to_body_padding"
+                        android:fontFamily="@font/arimo_regular"
+                        android:text="@string/paboritong_halaman_body"
+                        android:textColor="@color/home_page_text_not_selected"
+                        android:textSize="@dimen/home_page_body_text_size" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/button_home_page_naglinang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/home_page_button_marginStart"
+                android:background="@drawable/home_page_button_riple"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="@dimen/home_page_button_inner_padding">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/naglinang_prefix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo_bold"
+                        android:text="@string/naglinang_prefix"
+                        android:textColor="@color/home_page_text_not_selected"
+                        android:textSize="@dimen/home_page_prefix_text_size" />
+
+                    <TextView
+                        android:id="@+id/naglinang_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/home_page_prefix_to_body_padding"
+                        android:fontFamily="@font/arimo_regular"
+                        android:text="@string/naglinang_body"
+                        android:textColor="@color/home_page_text_not_selected"
+                        android:textSize="@dimen/home_page_body_text_size" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

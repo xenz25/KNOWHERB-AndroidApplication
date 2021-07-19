@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#33691e</color>
+    <color name="primaryLightColor">#629749</color>
+    <color name="primaryDarkColor">#003d00</color>
+    <color name="secondaryColor">#9ccc65</color>
+    <color name="secondaryLightColor">#cfff95</color>
+    <color name="secondaryDarkColor">#6b9b37</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#f9fbe7</color>
+
+    <color name="hydroterapi_primaryColor">#00838f</color>
+    <color name="hydroterapi_primaryLightColor">#4fb3bf</color>
+    <color name="hydroterapi_primaryDarkColor">#005662</color>
+    <color name="hydroterapi_secondaryColor">#80cbc4</color>
+    <color name="hydroterapi_secondaryLightColor">#b2fef7</color>
+    <color name="hydroterapi_secondaryDarkColor">#4f9a94</color>
+    <color name="hydroterapi_primaryTextColor">#ffffff</color>
+    <color name="hydroterapi_secondaryTextColor">#e8f5e9</color>
+
+    <color name="purple_200">@color/app_name_know_color</color>
+    <color name="purple_500">@color/app_name_know_color</color>
+    <color name="purple_700">@color/app_name_know_color</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_name_color">#2A4D2C</color>
+    <color name="top_bar_splash">#FAFAFA</color>
+    <color name="home_page_text_selected">#FFFFFFFF</color>
+    <color name="home_page_text_not_selected">#577500</color>
+
+    <color name="app_name_know_color">#2A4D2C</color>
+    <color name="app_name_herb_color">#577500</color>
+
+    <color name="home_page_color_ripple">#B8C68A</color>
+    <color name="activity_notification_bar">@color/app_name_know_color</color>
+
+    <color name="recycler_view_card_background_color1">#566A4C</color>
+    <color name="recycler_view_card_background_color2">@color/primaryColor</color>
+
+    <color name="recycler_view_card_title_color">#4F6146</color>
+    <color name="recycler_view_card_definition_color">#2E3C27</color>
+
+    <color name="favorite_leaf_unselected">#9baf92</color>
+    <color name="favorite_leaf_selected2">@color/secondaryDarkColor</color>
+    <color name="favorite_water_unselected">#A9B7C3</color>
+    <color name="favorite_water_selected2">@color/hydroterapi_secondaryDarkColor</color>
+    <color name="search_bar_text_color">#2A4D2C</color>
+
+    <color name="instruction_header_color">#667150</color>
+    <color name="highlight_color">#B8C68A</color>
+    <color name="hyper_link_color">#90B123</color>
+    <color name="highlight_color_hydroterapi">@color/hydroterapi_secondaryColor</color>
+    <color name="hyper_link_color_hydroterapi">@color/hydroterapi_secondaryDarkColor</color>
+    <color name="grayedOut">#e5e5e5</color>
+
+    <color name="naglinangTextColorDescription">#9EA19C</color>
+    <color name="naglinangBackGround">@color/white</color>
+    <color name="semiDarkFontColor">#566A4C</color>
+
+</resources>

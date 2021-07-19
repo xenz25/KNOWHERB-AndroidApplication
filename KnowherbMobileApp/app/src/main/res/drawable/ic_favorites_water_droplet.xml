@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="27.844dp"
+    android:height="40.074dp"
+    android:autoMirrored="true"
+    android:viewportWidth="27.844"
+    android:viewportHeight="40.074">
+    <path
+        android:fillColor="@color/favorite_water_unselected"
+        android:pathData="M13.922,0S27.844,16.87 27.844,26.152A13.922,13.922 0,0 1,0 26.152C0,16.87 13.922,0 13.922,0ZM19.995,27.064a31.435,31.435 0,0 1,-1.752 8.393,10.819 10.819,0 0,0 5.952,-9.994c0,-4.913 -5.7,-12.1 -8.937,-18.8C15.614,10.181 19.995,20.381 19.995,27.064Z" />
+</vector>

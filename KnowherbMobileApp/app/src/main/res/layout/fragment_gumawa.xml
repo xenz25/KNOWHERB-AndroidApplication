@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naglinangBackGround"
+    android:padding="10dp"
+    tools:context=".fragment.GumawaFragment">
+
+    <RelativeLayout
+        android:id="@+id/imagePlaceHolder"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_sakit_lunas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/dev_logo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imagePlaceHolder"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/arimo_bold"
+            android:gravity="center"
+            android:text="MIEOO"
+            android:textColor="#566A4C"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:padding="10dp"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_regular"
+                    android:text="    MIEOO - Main, Implements, Extends, Overload, Override. Ang grupong ito ang matiyagang nag ayos at nag disensyo ng aplikasyong Knowherb. Ginamit nila bilang batayan ang akda ng nabanggit na awtor na si Herminia de Guzman-Ladion na binigyang pamagat na, Mga Halamang Kahangahangang Pampagaling. Ang pinaka mahalagang bahagi ng aklat ang naging linalaman ng aplikasyong ito na dinisensyo upang mas mapadali ang pag babasa at pag alam ng mga ilinathala ng awtor. Ang linalaman ng aplikasyon ay walang halong pag aakin sa intellktwal na pag aari ng awtor, bagkos ay pag sasamoderno at pag papadali lamang ng kaparaanan ng pag babasa patungkol sa akda ng awtor."
+                    android:textColor="@color/naglinangTextColorDescription"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/knowherb_logo_2" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/arimo_bold"
+                    android:gravity="center"
+                    android:text="KNOWHERB"
+                    android:textColor="#566A4C"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo_regular"
+                    android:text="    Ang aplikasyong ito ay dinisentyo upang ilathala sa elektronikong paraan ang pinakamahahalgang bahagi ng aklat ng awtor. Ginagawa nitong mabilis at madali ang pag alam at paghahanap ng mga kinakailangang kaalaman patungkol sa espesipikong karamdaman o lunas, at higit sa lahat ay mga halamang gamot na may kakayahang magpagaling."
+                    android:textColor="@color/naglinangTextColorDescription"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,331 @@
+<resources>
+    <string name="app_name">KNOWHERB</string>
+    <string name="app_name_know">KNOW</string>
+    <string name="app_name_herb">HERB</string>
+    <string name="sakit_at_lunas_prefix">S</string>
+    <string name="sakit_at_lunas_body">akit at lunas</string>
+    <string name="mga_halamang_gamot_prefix">H</string>
+    <string name="mga_halamang_gamot_body">alamang gamot</string>
+    <string name="paboritong_halaman_prefix">P</string>
+    <string name="paboritong_halaman_body">aborito</string>
+    <string name="naglinang_prefix">N</string>
+    <string name="naglinang_body">aglinang</string>
+
+    <string name="know_shared_transition_name">know_transition</string>
+    <string name="herb_shared_transition_name">herb_transition</string>
+    <string name="sakit_at_lunas_image_tn">sl_image_transition</string>
+    <string name="sakit_at_lunas_title_tn">sl_title_transition</string>
+    <string name="sakit_at_lunas_description_tn">sl_description_transition</string>
+    <string name="sakit_at_lunas_fav_tn">sl_fav_transition</string>
+
+    <string name="hydroterapi_title_tn">sl_title_transition</string>
+    <string name="hydroterapi_description_tn">sl_description_transition</string>
+
+    <string name="sakit_at_lunas_serial_name">SAKIT_AT_LUNAS_SELECTED_OBJECT</string>
+    <string name="hydroterapi_serial_name">HYDROTERAPI_SELECTED_OBJECT</string>
+
+    <string name="is_from_fav_illnes_serial">FROM_FAVORITES_ILLNESS</string>
+    <string name="is_from_fav_hydroterapi_serial">FROM_FAVORITES_HYDROTHERAPY</string>
+    <string name="left_position_serial_name">LEFT_POSITION</string>
+
+    <!--    <string name="parent_content_list_content_serial_name">content_serial_name</string>
+    <string name="parent_content_list_content_serial_name">content_serial_name</string>
+    <string name="parent_content_list_content_serial_name">content_serial_name</string>-->
+
+    <!--SAKIT SET 1-->
+    <string name="MGA_NAKNAK_AT_PIGSA">Mga Naknak At Pigsa</string>
+    <string name="TALAMAK_AT_PANGMATAGALANG_CYSTITIS">Talamak At Pangmatagalang Cystitis</string>
+    <string name="HIKA">Hika</string>
+    <string name="ALIPUNGA">Alipunga</string>
+    <string name="MGA_KAGAT_NG_PUKYUTAN_AT_PUTAKTI">Mga Kagat Ng Pukyutan At Putakti</string>
+    <string name="MGA_PASO">Mga Paso</string>
+    <string name="NAGDURUGONG_SUGAT">Nagdurugong Sugat</string>
+    <string name="BULUTONG_TUBIG">Bulutong Tubig</string>
+    <string name="TIBI">Tibi</string>
+    <string name="UBO">Ubo</string>
+    <string name="BALAKUBAK">Balakubak</string>
+    <string name="DAYARYA">Dayarya</string>
+    <string name="EKSEMA">Eksema</string>
+    <string name="PAGKAWALA_NG_MALAY">Pagkawala Ng Malay</string>
+    <string name="LAGNAT">Lagnat</string>
+    <string name="KABAG">Kabag</string>
+    <string name="BALI">Bali</string>
+    <string name="SAKIT_SA_ULO_DAHIL_SA_SINUSITIS">Sakit Sa Ulo Dahil Sa Sinusitis</string>
+    <string name="ALMORANAS">Almoranas</string>
+    <string name="HERPES">Herpes</string>
+    <string name="PANGANGASIM_NG_SIKMURA">Pangangasim Ng Sikmura </string>
+
+    <!--SAKIT SET 2-->
+    <string name="IMPATSO">Impatso</string>
+    <string name="TALAMAK_NA_KUTO_SA_ULO">Talamak Na Kuto Sa Ulo</string>
+    <string name="TIGDAS_AT_PANTAL_NG_BALAT">Tigdas At Pantal Ng Balat</string>
+    <string name="MGA_KAGAT_NG_LAMOK">Mga Kagat Ng Lamok</string>
+    <string name="BEKE">Beke</string>
+    <string name="MGA_TAGIHAWAT_O_AKNE">Mga Tagihawat O Akne</string>
+    <string name="RAYUMA_O_PANANAKIT_SA_MGA_KASUKASUAN">Rayuma O Pananakit Sa Mga Kasukasuan</string>
+    <string name="BUNI">Buni</string>
+    <string name="GALIS_ASO">Galis–Aso</string>
+    <string name="PAMUMUTOK_NG_BALAT_AT_DERMATITIS">Pamumutok Ng Balat At Dermatitis</string>
+    <string name="PANGANGATI_NG_BALAT_AT_ALERDYI">Pangangati Ng Balat At Alerdyi</string>
+    <string name="KAGAT_NG_AHAS">Kagat Ng Ahas</string>
+    <string name="MASAKIT_NA_LALAMUNAN">Masakit Na Lalamunan</string>
+    <string name="PILAY_SA_BUKUNG_BUKONG_AT_PULSUHAN">Pilay Sa Bukung-Bukong At Pulsuhan</string>
+    <string name="SUNOG_ARAW_AT_MAHAPDING_INIT_SA_BALAT">Sunog-Araw At Mahapding Init Sa Balat</string>
+    <string name="MGA_NAMAMAGANG_GILAGID_AT_BIBIG">Mga Namamagang Gilagid At Bibig</string>
+    <string name="SAKIT_NG_NGIPIN">Sakit Ng Ngipin</string>
+    <string name="ANGHIT">Anghit</string>
+    <string name="MGA_BULATE">Mga Bulate</string>
+
+    <!--HYDROTERAPI-->
+    <string name="PUNAS_PARA_SA_LAGNAT">Punas Para Sa Lagnat </string>
+    <string name="MAINIT_NA_BANYOS_SA_PAA">Mainit Na Banyos Sa Paa</string>
+    <string name="MAINIT_NA_BANYOS">Mainit Na Banyos</string>
+    <string name="PALIGONG_MAY_GAWGAW">Paligong May Gawgaw</string>
+    <string name="MALAMIG_NA_POMENTO">Malamig Na Pomento</string>
+    <string name="NAGPAPAINIT_NA_POMENTO">Nagpapainit Na Pomento</string>
+    <string name="MAINIT_NA_POMENTO">Mainit Na Pomento</string>
+    <string name="LABATIBA">Labatiba</string>
+    <string name="POMENTASYON">Pomentasyon</string>
+    <string name="BALOT_NA_YELO">Balot Na Yelo</string>
+    <string name="MUMOG_NA_MAALAT">Mumog Na Maalat</string>
+    <string name="PAGLANGHAP_NG_SINGAW">Paglanghap Ng Singaw </string>
+    <string name="POMENTONG_AGWARAS">Pomentong Agwaras</string>
+
+    <!--HALAMAN-->
+    <string name="ABUKADO">Abukado</string>
+    <string name="ADELFA">Adelfa</string>
+    <string name="AKAPULKO">Akapulko</string>
+    <string name="ALAGAW">Alagaw</string>
+    <string name="ALUGBATI">Alugbati</string>
+    <string name="ALUSIMAN">Alusiman</string>
+    <string name="AMARILLO">Amarillo</string>
+    <string name="AMPALAYA">Ampalaya</string>
+    <string name="ANONAS">Anonas</string>
+    <string name="ATIS">Atis</string>
+    <string name="ATSUETE">Atsuete</string>
+    <string name="BALANOY">Balanoy</string>
+    <string name="BALETE">Balete</string>
+    <string name="BALIMBING">Balimbing </string>
+    <string name="BAWANG">Bawang</string>
+    <string name="BAYABAS">Bayabas</string>
+    <string name="BUNGA">Bunga</string>
+    <string name="BUYO">Buyo</string>
+    <string name="CACAO">Cacao</string>
+    <string name="COMFREY">Comfrey</string>
+    <string name="DUHAT">Duhat</string>
+    <string name="GISOL">Gisol</string>
+    <string name="GUGO">Gugo</string>
+    <string name="GUMAMELA">Gumamela</string>
+    <string name="HERBA_BUENA">Herba Buena</string>
+    <string name="IPIL_IPIL">Ipil-Ipil</string>
+    <string name="KAKAWATE">Kakawate</string>
+    <string name="KALAMANSI">Kalamansi</string>
+    <string name="KALATSUTSI">Kalatsutsi</string>
+    <string name="KAMANTIGUI">Kamantigui</string>
+    <string name="KAMATSILI">Kamatsili</string>
+    <string name="KAMIAS">Kamias</string>
+    <string name="KAMOTENG_KAHOY">Kamoteng Kahoy</string>
+    <string name="KAMPANILYA">Kampanilya</string>
+    <string name="KANGKONG">Kangkong</string>
+    <string name="KANTUTAY">Kantutay</string>
+    <string name="KANYA_PISTULA">Kanya Pistula</string>
+    <string name="KAROT">Karot</string>
+    <string name="KATAKA_TAKA">Kataka-Taka</string>
+    <string name="KAYMITO">Kaymito</string>
+    <string name="KILAW">Kilaw</string>
+    <string name="KUGON">Kugon</string>
+    <string name="KULITIS">Kulitis</string>
+    <string name="LAGUNDI">Lagundi</string>
+    <string name="LANGKA">Langka</string>
+    <string name="LUYA">Luya</string>
+    <string name="MAIS">Mais</string>
+    <string name="MAKABUHAY">Makabuhay</string>
+    <string name="MAKAHIYA">Makahiya</string>
+    <string name="MALUNGGAY">Malunggay </string>
+    <string name="MANGGA">Mangga</string>
+    <string name="MANSANILYA">Mansanilya</string>
+    <string name="MAYANA">Mayana</string>
+    <string name="NIYOG_NIYOGAN">Niyog-Niyogan</string>
+    <string name="OKRA">Okra</string>
+    <string name="OREGANO">Oregano</string>
+    <string name="PANDAKAKI_PUTI">Pandakaki-Puti</string>
+    <string name="PANDAN">Pandan</string>
+    <string name="PAPAYA">Papaya</string>
+    <string name="PATOLA">Patola</string>
+    <string name="PINYA">Pinya</string>
+    <string name="RABANUS">Rabanus</string>
+    <string name="REPOLYO">Repolyo</string>
+    <string name="ROMERO">Romero</string>
+    <string name="SABILA">Sabila</string>
+    <string name="SAGING">Saging</string>
+    <string name="SAMBONG">Sambong</string>
+    <string name="SAMPALOK">Sampalok</string>
+    <string name="SINGKAMAS">Singkamas</string>
+    <string name="TABAKO">Tabako</string>
+    <string name="TAKIP_KOHOL">Takip-Kohol</string>
+    <string name="TALONG">Talong</string>
+    <string name="TALUMPUNAY">Talumpunay</string>
+    <string name="TANGLAD">Tanglad</string>
+    <string name="hello_blank_fragment">helo</string>
+    <string name="dummy_header_text">Panggamot ng Halaman</string>
+
+    <string-array name="sakit_lower_case">
+        <item>alipunga</item>
+        <item>almoranas</item>
+        <item>anghit</item>
+        <item>balakubak</item>
+        <item>bali</item>
+        <item>beke</item>
+        <item>bulutong_tubig</item>
+        <item>buni</item>
+        <item>dayarya</item>
+        <item>eksema</item>
+        <item>galis_aso</item>
+        <item>herpes</item>
+        <item>hika</item>
+        <item>impatso</item>
+        <item>kabag</item>
+        <item>kagat_ng_ahas</item>
+        <item>lagnat</item>
+        <item>masakit_na_lalamunan</item>
+        <item>mga_bulate</item>
+        <item>mga_kagat_ng_lamok</item>
+        <item>mga_kagat_ng_pukyutan_at_putakti</item>
+        <item>mga_naknak_at_pigsa</item>
+        <item>mga_namamagang_gilagid_at_bibig</item>
+        <item>mga_paso</item>
+        <item>mga_tagihawat_o_akne</item>
+        <item>nagdurugong_sugat</item>
+        <item>pagkawala_ng_malay</item>
+        <item>pamumutok_ng_balat_at_dermatitis</item>
+        <item>pangangasim_ng_sikmura</item>
+        <item>pangangati_ng_balat_at_alerdyi</item>
+        <item>pilay_sa_bukung_bukong_at_pulsuhan</item>
+        <item>rayuma_o_pananakit_sa_mga_kasukasuan</item>
+        <item>sakit_ng_ngipin</item>
+        <item>sakit_sa_ulo_dahil_sa_sinusitis</item>
+        <item>sunog_araw_at_mahapding_init_sa_balat</item>
+        <item>talamak_at_pangmatagalang_cystitis</item>
+        <item>talamak_na_kuto_sa_ulo</item>
+        <item>tibi</item>
+        <item>tigdas_at_pantal_ng_balat</item>
+        <item>ubo</item>
+    </string-array>
+
+    <string-array name="hydroterapi_lower_case">
+        <item>balot_na_yelo</item>
+        <item>labatiba</item>
+        <item>mainit_na_banyos</item>
+        <item>mainit_na_banyos_sa_paa</item>
+        <item>mainit_na_pomento</item>
+        <item>malamig_na_pomento</item>
+        <item>mumog_na_maalat</item>
+        <item>nagpapainit_na_pomento</item>
+        <item>paglanghap_ng_singaw</item>
+        <item>paligong_may_gawgaw</item>
+        <item>pomentasyon</item>
+        <item>pomentong_agwaras</item>
+        <item>punas_para_sa_lagnat</item>
+    </string-array>
+
+    <string-array name="plants_lower_case">
+        <item>abukado</item>
+        <item>adelfa</item>
+        <item>akapulko</item>
+        <item>alagaw</item>
+        <item>alugbati</item>
+        <item>alusiman</item>
+        <item>amarillo</item>
+        <item>ampalaya</item>
+        <item>anonas</item>
+        <item>atis</item>
+        <item>atsuete</item>
+        <item>balanoy</item>
+        <item>balete</item>
+        <item>balimbing</item>
+        <item>bawang</item>
+        <item>bayabas</item>
+        <item>bunga</item>
+        <item>buyo</item>
+        <item>cacao</item>
+        <item>comfrey</item>
+        <item>duhat</item>
+        <item>gisol</item>
+        <item>gugo</item>
+        <item>gumamela</item>
+        <item>herba_buena</item>
+        <item>ipil_ipil</item>
+        <item>kakawate</item>
+        <item>kalamansi</item>
+        <item>kalatsutsi</item>
+        <item>kamantigui</item>
+        <item>kamatsili</item>
+        <item>kamias</item>
+        <item>kamoteng_kahoy</item>
+        <item>kampanilya</item>
+        <item>kangkong</item>
+        <item>kantutay</item>
+        <item>kanya_pistula</item>
+        <item>karot</item>
+        <item>kataka_taka</item>
+        <item>kaymito</item>
+        <item>kilaw</item>
+        <item>kugon</item>
+        <item>kulitis</item>
+        <item>lagundi</item>
+        <item>langka</item>
+        <item>luya</item>
+        <item>mais</item>
+        <item>makabuhay</item>
+        <item>makahiya</item>
+        <item>malunggay</item>
+        <item>mangga</item>
+        <item>mansanilya</item>
+        <item>mayana</item>
+        <item>niyog_niyogan</item>
+        <item>okra</item>
+        <item>oregano</item>
+        <item>pandakaki_puti</item>
+        <item>pandan</item>
+        <item>papaya</item>
+        <item>patola</item>
+        <item>pinya</item>
+        <item>rabanus</item>
+        <item>repolyo</item>
+        <item>romero</item>
+        <item>sabila</item>
+        <item>saging</item>
+        <item>sambong</item>
+        <item>sampalok</item>
+        <item>singkamas</item>
+        <item>tabako</item>
+        <item>takip_kohol</item>
+        <item>talong</item>
+        <item>talumpunay</item>
+        <item>tanglad</item>
+    </string-array>
+
+    <string name="scientific_name">Scientific Name</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="tagalog">Tagalog</string>
+    <string name="cebuan">Cebuan</string>
+    <string name="ilocano">Ilocano</string>
+    <string name="pampango">Pampango</string>
+    <string name="visayan">Visayan</string>
+    <string name="cebu_visayan">Cebu Visayan</string>
+    <string name="bicol">Bicol</string>
+
+    <string name="ellipsis">…</string>
+    <string name="dummy_hika_text_decription">Ang hika ay karamdaman ng tubong daanan ng hininga. Ang mga palatandaan nito ay paninikip ng dibdib, pangangapos ng hiniga, at pag-ubo.</string>
+    <string name="dummy_hydroterapi_descrip">Lubog na paligo ng isang bahagi ng katawan na sumasaklaw sa balakang at mga bahagi na sakop ng pigi…</string>
+    <string name="search_hint_pangalan_ng_sakit">Pangalan ng Sakit</string>
+    <string name="search_hint_hydroterapi">Pangalan ng Hydroterapi</string>
+    <string name="search_hint_pangalan_ng_halaman">Pangalan ng Halaman</string>
+    <string name="walang_laman_ang_bahaging_ito">Walang laman ang bahaging ito</string>
+
+    <string name="api_gif_drawable"><a href = "https://github.com/koral--/android-gif-drawable">https://github.com/koral--/android-gif-drawable</a></string>
+    <string name="api_android_view_anim"><a href="https://github.com/daimajia/AndroidViewAnimations">https://github.com/daimajia/AndroidViewAnimations</a></string>
+    <string name="api_gson"><a href="https://github.com/google/gson">https://github.com/google/gson</a></string>
+    <string name="api_glide"><a href="https://github.com/bumptech/glide">https://github.com/bumptech/glide</a></string>
+</resources>

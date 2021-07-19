@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_page_prefix_text_size">55sp</dimen>
+    <dimen name="home_page_body_text_size">17sp</dimen>
+    <dimen name="home_page_prefix_to_body_padding">2dp</dimen>
+    <dimen name="home_page_button_inner_padding">5dp</dimen>
+    <dimen name="home_page_app_name_size">50sp</dimen>
+
+    <dimen name="circle_photo_frame_diameter">100dp</dimen>
+    <dimen name="home_page_button_marginStart">15dp</dimen>
+
+    <dimen name="splash_screen_app_name_size">40sp</dimen>
+    <dimen name="splash_screen_logo_gif_padding">5dp</dimen>
+
+    <dimen name="recycler_view_corner_radius1">20dp</dimen>
+    <dimen name="recycler_view_corner_radius2">15dp</dimen>
+    <dimen name="max_length_of_prev_def_recycler">79</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="view_border_height">2dp</dimen>
+
+    <dimen name="description_text_size">15sp</dimen>
+    <dimen name="instruction_text_size">@dimen/description_text_size</dimen>
+
+    <dimen name="back_button_width">36dp</dimen>
+</resources>

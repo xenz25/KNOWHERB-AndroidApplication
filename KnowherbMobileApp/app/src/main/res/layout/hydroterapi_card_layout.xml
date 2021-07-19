@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hydroterapi_rel_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/hydroterapi_card_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_edge_card_panel_blue"
+        android:clickable="true"
+        android:elevation="6dp"
+        android:focusable="true">
+
+        <LinearLayout
+            android:id="@+id/hydroterapi_title_content_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@id/water_droplet"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/hydroterapi_title_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/arimo_bold"
+                android:gravity="start"
+                android:text="@string/MAINIT_NA_BANYOS"
+                android:textColor="@color/hydroterapi_primaryTextColor"
+                android:textSize="20sp"
+                android:transitionName="@string/hydroterapi_title_tn" />
+
+            <TextView
+                android:id="@+id/hydroterapi_description_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo_regular"
+                android:gravity="start"
+                android:text="@string/dummy_hydroterapi_descrip"
+                android:textColor="@color/hydroterapi_secondaryTextColor"
+                android:textSize="12sp"
+                android:transitionName="@string/hydroterapi_description_tn" />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:visibility="gone"
+            android:id="@+id/water_droplet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/ic_water_droplet"
+            android:elevation="10dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

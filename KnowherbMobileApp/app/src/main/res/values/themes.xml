@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.KnowHerbTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/white</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="roundedImageView" parent="Theme.KnowHerbTheme">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/recycler_view_corner_radius1</item>
+        <item name="color">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_anim</item>
+    </style>
+
+    <style name="Theme.ShadowIncrease" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--increase shadow intensity-->
+        <item name="android:ambientShadowAlpha">0.4</item>
+        <item name="android:spotShadowAlpha">0.0</item>
+        <item name="android:shadowColor">@color/recycler_view_card_background_color1</item>
+    </style>
+
+    <style name="Theme.KnowHerbTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.KnowHerbTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.KnowHerbTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

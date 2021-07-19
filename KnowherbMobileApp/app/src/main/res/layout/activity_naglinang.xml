@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naglinangBackGround"
+    tools:context=".activity.NaglinangActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:elevation="5dp"
+        android:padding="20dp">
+
+        <FrameLayout
+            android:id="@+id/naglinang_btn_back"
+            android:layout_width="@dimen/back_button_width"
+            android:layout_height="@dimen/back_button_width"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_instruction_back_button"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:focusable="true" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/naglinang_tab_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/naglinang_btn_back"
+            android:fontFamily="@font/arimo_bold"
+            android:gravity="start"
+            android:paddingStart="30dp"
+            android:paddingEnd="@dimen/back_button_width"
+            android:text="Pinagbatayan"
+            android:textColor="#566A4C"
+            android:textSize="35sp" />
+
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_below="@+id/relativeLayout"
+        android:id="@+id/naglinang_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+    <!--<include
+        layout="@layout/fragment_ginamit_sa_app"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content" />-->
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

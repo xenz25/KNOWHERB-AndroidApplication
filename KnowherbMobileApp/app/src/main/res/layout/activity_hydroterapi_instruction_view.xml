@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hydroterapi_motion_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_hydroterapi_instruction_view_scene"
+    tools:context=".activity.HydroterapiInstructionViewActivity">
+
+    <LinearLayout
+        android:id="@+id/header_parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <FrameLayout
+                android:id="@+id/btn_back_hydroterapi_instruction_activity"
+                android:layout_width="@dimen/back_button_width"
+                android:layout_height="@dimen/back_button_width"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_instruction_back_button_hydroterapi"
+                android:clickable="true"
+                android:elevation="10dp"
+                android:focusable="true" />
+
+            <FrameLayout
+                android:id="@+id/btn_favorites_hydroterapi_instruction_activity"
+                android:layout_width="27dp"
+                android:layout_height="36dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_favorites_water_droplet"
+                android:clickable="true"
+                android:elevation="10dp"
+                android:focusable="true"/>
+        </RelativeLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/instruction_activity_image_container"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:elevation="20dp"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/sakit_at_lunas_image_tn"
+            android:visibility="gone"
+            app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+        <TextView
+            android:id="@+id/tv_hydroterapi_instruction_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/arimo_bold"
+            android:gravity="center"
+            android:text="@string/MAINIT_NA_BANYOS"
+            android:textColor="@color/hydroterapi_primaryDarkColor"
+            android:textSize="30sp"
+            android:transitionName="@string/hydroterapi_title_tn" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/description_container"
+            android:backgroundTint="@color/hydroterapi_secondaryDarkColor"
+            android:elevation="10dp"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_hydroterapi_instruction_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_regular"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="@dimen/description_text_size"
+                android:transitionName="@string/hydroterapi_description_tn" />
+        </FrameLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_border_height"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="7dp"
+            android:alpha="0.2"
+            android:background="@android:color/darker_gray"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/hydroterapi_instruction_recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_parent_layout"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

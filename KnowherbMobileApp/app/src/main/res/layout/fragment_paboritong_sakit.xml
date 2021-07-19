@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_layout_fragmentsakit"
+    tools:context=".fragment.PaboritongSakitFragment">
+
+    <include layout="@layout/fragment_favorite_layout"/>
+
+    <FrameLayout
+        android:layout_marginTop="-50dp"
+        android:visibility="gone"
+        android:id="@+id/empty_indicator_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/empty_indicator_layout"/>
+    </FrameLayout>
+
+</FrameLayout>

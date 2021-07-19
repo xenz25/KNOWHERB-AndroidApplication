@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="6dp"
+    android:paddingEnd="6dp"
+    tools:context=".activity.TestActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="185dp">
+
+        <RelativeLayout
+            android:id="@+id/card_parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_edge_card_panel"
+            android:clickable="true"
+            android:elevation="6dp"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.79">
+
+            <FrameLayout
+                android:id="@+id/spacer"
+                android:layout_width="130dp"
+                android:layout_height="140dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="15dp"
+                android:layout_toEndOf="@id/spacer"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/tv_sakit_title_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_sakit_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/card_view_favorites_leaf"
+                        android:fontFamily="@font/segoe_bold"
+                        android:text="Mga kagat ng pukyutan at putakti"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="15sp"
+                        android:transitionName="@string/sakit_at_lunas_title_tn" />
+
+                    <FrameLayout
+                        android:id="@+id/card_view_favorites_leaf"
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/ic_favorites_leaf"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:transitionName="@string/sakit_at_lunas_fav_tn"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:paddingBottom="10dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintVertical_bias="0.3">
+
+                    <TextView
+                        android:id="@+id/tv_sakit_at_lunas_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoe_regular"
+                        android:text="Ang hika ay karamdaman ng tubong daanan ng hininga. Ang mga palatandaan nito..."
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:transitionName="@string/sakit_at_lunas_description_tn" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView_sakit_lunas"
+            android:layout_width="110dp"
+            android:layout_height="155dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:elevation="15dp"
+            android:paddingTop="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hika"
+            android:transitionName="@string/sakit_at_lunas_image_tn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/card_parent_layout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
