@@ -24,9 +24,3 @@ Features:
 5. Include importants section of the book (e.g. 40 common illness, 13 Hydrotherapy procedures, 74 Herbal Plants)
 6. see presentation for more information.
 
-Developers:
-Lead: Zian Jolo M. Catacutan
-Emmanuel Alcoriza
-Aña Patricia Canlas
-Alexandria Fernando
-
