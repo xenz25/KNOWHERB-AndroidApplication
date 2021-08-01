@@ -3,7 +3,6 @@ An Android Application Based on the Book of Herminia de Guzman-Ladion, R.N., A.R
 
 
 # About the Author of the Source Book:
-######################################################################
 
 Si Herminia de Guzman-Ladion, R.N., A.R.P.T., P.T.R.P., ay naglelektura tungkol sa likas na panlunas sa mga paaralan at iba’t ibang tagapakinig, mula sa pulutong na propesyonal hanggang sa mga samahang sibiko at pambayan. Nagtuturo siya ng kurso tungkol sa likas na panlunas sa The international Institute of Health, Philippines Union College, Silang, Cavite. Nakagamit na siya mg ilang halamang-gamot na binabanggit sa aklat na ito sa kanyang sambahayan at mga kaibigan.
 
@@ -14,11 +13,10 @@ Bukod sa pagsusulat at paglelektura tungkol sa likas na panlunas, isinasagawa ni
 Lisensiyado siya upang makapaggamot ng kapwa sa Pilipinas gayon din sa California at USA bilang isang nars at physical therapist. Natamo niya ang puspusang pagsasanay sa School of Physical Therapy sa Loma Linda University sa California kung saan tumanggap siya  ng kaloob na iskolarship mula sa Johnson Foundation sa panahon ng taon ng kanyang pagtatapos.
 
 Si Mrs. Ladion ay kumakatawan din sa Pilipinas sa iba’t- ibang pulong propesyonal sa Singapore at Australia.
-######################################################################
-
-Note: The project was created inside Android Studio using Java as the main Programming Language
 
 # Features:
+Note: The project was created inside Android Studio using Java as the main Programming Language
+
 1. Added Hyperlink capabilities for easy reading and navigation.
 2. Supports Favorites sections for saving parts curretly on-read.
 3. Adapting Interface based on applicatoin topic.
