@@ -34,7 +34,7 @@ Note: The project was created inside Android Studio using Java as the main Progr
 
 # Sample Interface
 - Splash Screen
-> ![alt text](https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Splash%20Screen.png?raw=true?s=200)
+> ![alt text](https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Splash%20Screen.png?raw=true s=100)
 
 - Home View
 > ![alt text](https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Home%20View.png?raw=true)
