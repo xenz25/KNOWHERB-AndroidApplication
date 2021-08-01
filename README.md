@@ -16,7 +16,8 @@ Si Mrs. Ladion ay kumakatawan din sa Pilipinas sa iba’t- ibang pulong propesyo
 ######################################################################
 
 Note: The project was created inside Android Studio using Java as the main Programming Language
-Features:
+
+# Features:
 1. Added Hyperlink capabilities for easy reading and navigation.
 2. Supports Favorites sections for saving parts curretly on-read.
 3. Adapting Interface based on applicatoin topic.
@@ -24,8 +25,10 @@ Features:
 5. Include importants section of the book (e.g. 40 common illness, 13 Hydrotherapy procedures, 74 Herbal Plants)
 6. see presentation for more information.
 
-Developer: Zian Jolo M. Catacutan
-Team
-Emmanuel Alcoriza
-Aña Patricia Canlas
-Alexandria Nicole Fernando
+# Developer: 
+> Project Leader:
+- Zian Jolo M. Catacutan
+> Team Members:
+- Emmanuel Alcoriza
+- Aña Patricia Canlas
+- Alexandria Nicole Fernando
