@@ -1,8 +1,9 @@
 # KNOWHERB-AndroidApplication
 An Android Application Based on the Book of Herminia de Guzman-Ladion, R.N., A.R.P.T., P.T.R.P Titled "Mga-Halaman Kahangahangang Pampagaling" Created for Android Development Elective Course
 
+
+# About the Author of the Source Book:
 ######################################################################
-About the Author of the Source Book:
 
 Si Herminia de Guzman-Ladion, R.N., A.R.P.T., P.T.R.P., ay naglelektura tungkol sa likas na panlunas sa mga paaralan at iba’t ibang tagapakinig, mula sa pulutong na propesyonal hanggang sa mga samahang sibiko at pambayan. Nagtuturo siya ng kurso tungkol sa likas na panlunas sa The international Institute of Health, Philippines Union College, Silang, Cavite. Nakagamit na siya mg ilang halamang-gamot na binabanggit sa aklat na ito sa kanyang sambahayan at mga kaibigan.
 
