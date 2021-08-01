@@ -36,12 +36,11 @@ Note: The project was created inside Android Studio using Java as the main Progr
 - Splash Screen
 > <img src="https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Splash%20Screen.png" alt="drawing" width="200"/>
 
-
 - Home View
-> ![alt text](https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Home%20View.png?raw=true)
+> <img src="https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Home%20View.png" alt="drawing" width="200"/>
 
 - Sample Sickness View
-> ![alt text](https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Sickness%20View.png?raw=true)
+> <img src="https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Sickness%20View.png" alt="drawing" width="200"/>
 
 - Sample Hydrotherapy View
-> ![alt text](https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Hydrotherapy%20View.png?raw=true)
+> <img src="https://github.com/xenz25/KNOWHERB-AndroidApplication/blob/main/User%20Interface/Hydrotherapy%20View.png" alt="drawing" width="200"/>
